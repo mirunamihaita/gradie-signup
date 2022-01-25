@@ -1,0 +1,29 @@
+$primary: #003345 !default;
+$light: #75C1D6 !default;
+@import "node_modules/bootstrap/scss/bootstrap";
+$enable-responsive-font-sizes: true !default;
+html {
+  height: 100%;
+
+  body {
+    height: 100%;
+    background: url('../img/Background.png') no-repeat;
+    background-size: cover;
+    #root{
+      height: 100%;
+      .login-container{
+        max-width: 1000px;
+        form{
+          label{
+            font-weight: 600;
+          }
+          label[for="formBasicCheckbox"]{
+            font-weight: 400;
+          }
+        }
+      }
+
+    }
+  }
+}
+
